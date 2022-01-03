@@ -1,0 +1,30 @@
+table{
+    width: 75%;
+    height: 25%;
+}
+thead{
+    height: 20%;
+}
+thead .part1{
+    background-color: #2ECC71;
+    width: 80%;
+}
+
+thead .part2{
+    background-color: #2980B9;
+}
+
+tbody .part1{
+    background-color: #E74C3C;
+    width: 33%;
+}
+
+tbody .part2{
+    background-color: #E67E22;
+    width: 33%;
+}
+
+tbody .part3{
+    background-color: #95A5A6;
+    width: 33%;
+}
