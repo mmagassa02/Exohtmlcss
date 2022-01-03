@@ -1,0 +1,46 @@
+.grid{
+    display: grid;
+    grid-template-areas: 'element1 element1 element1 element1 element2 '
+                         'element3 element3 element4 element5'
+                         'element3 element6 element7 element8'
+                         'element9 element9 element9 element9'
+                         'element9 element9 element9 element9';
+}
+.element1{
+    grid-area: element1;
+    background-color: #2ECC71;
+}
+
+.element2{
+    grid-area: element2;
+    background-color: #2980B9;
+}
+
+.element3{
+    grid-area: element3;
+    background-color: #E74C3C;
+}
+.element4{
+    grid-area: element4;
+    background-color: #E67E22;
+}
+.element5{
+    grid-area: element5;
+    background-color: #95A5A6;
+}
+.element6{
+    grid-area: element6;
+    background-color: #F39C12;
+}
+.element7{
+    grid-area: element7;
+    background-color: #16A085;
+}
+.element8{
+    grid-area: element8;
+    background-color: #D35400;
+}
+.element9{
+    grid-area: element9;
+    background-color: #2C3E50;
+}
