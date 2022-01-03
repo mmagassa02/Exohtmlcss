@@ -9,20 +9,32 @@
 </head>
 <body>
     <form action="">
-        <fieldset>
+        <fieldset class="identity">
             <legend>Votre identité</legend>
             <ol>
-                <li>Nom :</li>
-                <li>Prénom :</li>
-                <li>Adresse mail :</li>
+                <li>Nom : <input type="text" name="lastname" id="" placeholder="Nom"></li>
+                <li>Prénom : <input type="text" name="firstname" id="" placeholder="Prénom"></li>
+                <li>Adresse mail : <input type="text" name="email" id="" placeholder="Adresse mail"></li>
             </ol>
         </fieldset>
-        <fieldset>
+        <fieldset class="address">
             <legend>Adresse de livraison</legend>
+            <ol>
+                <li>Adresse : <textarea name="adress" id="" cols="30" rows="10"></textarea></li>
+                <li>Code postal : <input type="text" name="firstname" id="" placeholder="Code postal"></li>
+                <li>Ville : <input type="text" name="email" id="" placeholder="Ville"></li>
+            </ol>
         </fieldset>
-        <fieldset>
-            <legend>Information de règlement</legend>
+        <fieldset class="payment">
+            <legend>Informations de règlement</legend>
+            <ol>
+                <li>Type de carte bancaire :</li>
+                <li>Numéro de carte : <input type="text" name="cardnumber" id=""placeholder="Numéro de carte"></li>
+                <li>Code de securité : <input type="text" name="security" id="" placeholder="Code de securité"></li>
+                <li>Nom du titulaire : <input type="text" name="username" id="" placeholder="Nom du titulaire"></li>
+            </ol>
         </fieldset>
+        <input type="button" value="J'achète !">
     </form>
 </body>
 </html>
