@@ -20,14 +20,16 @@ body{
  header h1{
      text-transform: uppercase;
      color: white;
+     font-weight: 700;
+     font-style: italic;
  }
 
 
  main{
      background-image: url(../img/wall.jpg);
      background-size: cover;
-     height: 70vh;
-     padding-top: 10%;
+     height: 70%;
+     padding: 10%;
  }
 table{
     border: 1px solid black;
